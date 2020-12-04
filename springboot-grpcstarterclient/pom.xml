@@ -47,6 +47,7 @@
     </dependencies>
 
     <build>
+        <!--        to generate stub from protobuf file-->
         <defaultGoal>clean generate-sources compile install</defaultGoal>
         <plugins>
             <plugin>
